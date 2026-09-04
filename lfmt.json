@@ -207,10 +207,7 @@
           "1": {
             "rwy": "30R",
             "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },

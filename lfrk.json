@@ -47,20 +47,14 @@
           "1": {
             "rwy": "12",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "Y": {
           "1": {
             "rwy": "30",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -69,20 +63,14 @@
           "1": {
             "rwy": "12",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "Y": {
           "1": {
             "rwy": "30",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -91,20 +79,14 @@
           "1": {
             "rwy": "12",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "Y": {
           "1": {
             "rwy": "30",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       }

@@ -37,20 +37,14 @@
           "1": {
             "rwy": "36",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "S": {
           "1": {
             "rwy": "18",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -59,20 +53,14 @@
           "1": {
             "rwy": "36",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "S": {
           "1": {
             "rwy": "18",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -81,20 +69,14 @@
           "1": {
             "rwy": "36",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "S": {
           "1": {
             "rwy": "18",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -110,10 +92,7 @@
           "1": {
             "rwy": "18",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       }

@@ -17,20 +17,14 @@
           "1": {
             "rwy": "15L",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "N": {
           "1": {
             "rwy": "33R",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -39,20 +33,14 @@
           "1": {
             "rwy": "15L",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "N": {
           "1": {
             "rwy": "33R",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -61,20 +49,14 @@
           "1": {
             "rwy": "15L",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "N": {
           "1": {
             "rwy": "33R",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -83,10 +65,7 @@
           "1": {
             "rwy": "15L",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       }

@@ -360,20 +360,14 @@
           "1": {
             "rwy": "08",
             "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "X": {
           "1": {
             "rwy": "26",
             "initial": 7000,
-            "prio": 3,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 3
             }
           }
         },
@@ -381,10 +375,7 @@
           "1": {
             "rwy": "26",
             "initial": 7000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 2
           }
         },
         "Z": {
@@ -392,10 +383,7 @@
             "rwy": "26",
             "initial": 7000,
             "prio": 1,
-            "WTC": "LM",
-            "equip": {
-              "NON-RNAV": true
-          }
+            "WTC": "LM"
        }
     }
   }

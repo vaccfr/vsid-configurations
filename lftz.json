@@ -39,10 +39,7 @@
           "1": {
             "rwy": "06",
             "initial": 4000,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },

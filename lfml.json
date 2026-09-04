@@ -321,10 +321,7 @@
           "1": {
             "rwy": "13L,13R",
             "initial": 4000,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -333,10 +330,7 @@
           "1": {
             "rwy": "31L,31R",
             "initial": 4000,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       }

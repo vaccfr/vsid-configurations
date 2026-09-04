@@ -35,20 +35,14 @@
           "1": {
             "rwy": "25",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "W": {
           "1": {
             "rwy": "25",
             "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 2
           }
         }
       },
@@ -57,10 +51,7 @@
           "1": {
             "rwy": "07",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       },
@@ -69,20 +60,14 @@
           "1": {
             "rwy": "07",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         },
         "W": {
           "1": {
             "rwy": "25",
             "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
+            "prio": 1
           }
         }
       }
