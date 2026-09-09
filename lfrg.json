@@ -52,67 +52,47 @@
           }
         }
       },
-      "CAN": {
-        "E": {
+      "DIKRO": {
+        "U": {
           "1": {
             "rwy": "12",
             "initial": 0,
-            "prio": 1
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
           }
         },
-        "W": {
+        "V": {
           "1": {
             "rwy": "30",
             "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "ELBOX": {
-        "E": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
           }
         }
       },
       "ETRAT": {
-        "E": {
+        "U": {
           "1": {
             "rwy": "12",
             "initial": 0,
-            "prio": 1
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
           }
         },
-        "W": {
+        "V": {
           "1": {
             "rwy": "30",
             "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "NEVIL": {
-        "E": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
           }
         }
       }
