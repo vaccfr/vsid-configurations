@@ -3,7 +3,7 @@
     "elevation": 1260,
     "runways": "02,20",
     "transAlt": 5000,
-    "maxInitialClimb": 0,
+    "maxInitialClimb": 14000,
     "appSI": "BB,BPA",
     "intersections": {
     "20": "A,T7",
