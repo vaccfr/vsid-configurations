@@ -3,7 +3,7 @@
     "elevation": 1092,
     "runways": "08,26,01,19",
     "transAlt": 5000,
-    "maxInitialClimb": 0,
+    "maxInitialClimb": 14000,
     "appSI": "MM,LCA",
     "intersections": {
     "08": "C5,C4,D4,C3,D3",
