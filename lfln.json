@@ -4,7 +4,7 @@
     "runways": "15L,33R,15R,33L,15,33",
     "transAlt": 5000,
     "maxInitialClimb": 8000,
-    "appSI": "MM,LCA",
+    "appSI": "MM,CF,CY",
     "intersections": {
     "15L": "E4",
     "15R": "W3",
