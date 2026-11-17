@@ -308,44 +308,6 @@
 				}
 			]
 		},
-		"selection": {
-			"AMOLO": [
-				"other",
-				"airbus"
-			],
-			"MEN": [
-				"other",
-				"airbus"
-			],
-			"FINOT": [
-				"other",
-				"airbus"
-			],
-			"MORIL": [
-				"other",
-				"airbus"
-			],
-			"RIBOU": [
-				"other",
-				"airbus"
-			],
-			"GAUDE": [
-				"other",
-				"airbus"
-			],
-			"LMB": [
-				"other",
-				"airbus"
-			],
-			"LACOU": [
-				"other",
-				"airbus"
-			],
-			"FISTO": [
-				"other",
-				"airbus"
-			]
-		},
 		"defaultStrategy": "nearest",
 		"strategies": {
 			"nearest": {
