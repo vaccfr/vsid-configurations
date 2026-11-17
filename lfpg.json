@@ -92,130 +92,155 @@
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
-					"rwy": "09L,09R"
+					"rwy": "09L,09R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "Z",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				}
 			],
 			"OPALE": [
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
-					"rwy": "09L,09R"
+					"rwy": "09L,09R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"ATREX": [
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
-					"rwy": "09L,09R"
+					"rwy": "09L,09R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"BAXIR": [
@@ -223,6 +248,7 @@
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
@@ -233,12 +259,14 @@
 						"P": 9000,
 						"T": 9000
 					},
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
@@ -247,36 +275,43 @@
 					"initialClimb": {
 						"P": 9000,
 						"T": 9000
-					}
+					},
+					"engines": "JPT"
 				},
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
-					"rwy": "09L,09R"
+					"rwy": "09L,09R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				}
 			],
 			"NURMO": [
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
@@ -292,82 +327,97 @@
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"DIKOL": [
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
-					"rwy": "09L,09R"
+					"rwy": "09L,09R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"RANUX": [
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
@@ -383,35 +433,41 @@
 				},
 				{
 					"sid": "A",
-					"rwy": "27L,27R"
+					"rwy": "27L,27R",
+					"engines": "JPT"
 				},
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
 					"rwy": "08R,08L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
 					"rwy": "26R,26L",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"LANVI": [
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
@@ -421,11 +477,13 @@
 						"P": 9000,
 						"T": 9000
 					},
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
-					"rwy": "08R,08L"
+					"rwy": "08R,08L",
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
@@ -433,35 +491,41 @@
 					"initialClimb": {
 						"P": 9000,
 						"T": 9000
-					}
+					},
+					"engines": "JPT"
 				},
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
 					"rwy": "09L,09R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
 					"rwy": "27L,27R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"BUBLI": [
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
@@ -471,11 +535,13 @@
 						"P": 9000,
 						"T": 9000
 					},
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
-					"rwy": "08R,08L"
+					"rwy": "08R,08L",
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
@@ -483,29 +549,34 @@
 					"initialClimb": {
 						"P": 9000,
 						"T": 9000
-					}
+					},
+					"engines": "JPT"
 				},
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
 					"rwy": "09L,09R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
 					"rwy": "27L,27R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"PILUL": {
@@ -995,47 +1066,56 @@
 				{
 					"sid": "L",
 					"rwy": "08R,08L",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "E",
 					"rwy": "26R,26L",
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "H",
-					"rwy": "08R,08L"
+					"rwy": "08R,08L",
+					"engines": "JPT"
 				},
 				{
 					"sid": "B",
-					"rwy": "26R,26L"
+					"rwy": "26R,26L",
+					"engines": "JPT"
 				},
 				{
 					"sid": "K",
 					"rwy": "09L,09R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "D",
 					"rwy": "27L,27R",
 					"climbvia": true,
+					"engines": "JPT",
 					"rule": "opposing"
 				},
 				{
 					"sid": "G",
 					"rwy": "09L,09R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "A",
 					"rwy": "27L,27R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				},
 				{
 					"sid": "Z",
 					"rwy": "27L,27R",
-					"climbvia": true
+					"climbvia": true,
+					"engines": "JPT"
 				}
 			],
 			"PO": [
