@@ -1,59 +1,46 @@
 {
-  "LFRD": {
-    "elevation": 219,
-    "runways": "17,35",
-    "transAlt": 5000,
-    "maxInitialClimb": 11000,
-    "appSI": "RR,RNA",
-    "intersections": {
-    "17": "H,J,G",
-    "35": "J"
-    },
-    "sids": {
-      "EKRAS": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MINQI": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFRD": {
+		"version": 2,
+		"elevation": 219,
+		"runways": "17,35",
+		"transAlt": 5000,
+		"maxInitialClimb": 11000,
+		"appSI": "RR,RNA",
+		"intersections": {
+			"17": "H,J,G",
+			"35": "J"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"EKRAS": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			],
+			"MINQI": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			]
+		}
+	}
 }

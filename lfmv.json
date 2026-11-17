@@ -1,143 +1,82 @@
 {
-  "LFMV": {
-    "elevation": 124,
-    "runways": "17,35,17R,35L",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,MLA",
-    "intersections": {
-    "17": "D,C3",
-    "35": "A,B"
-    },
-    "sids": {
-      "LACAZ": {
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "M": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "TRETS": {
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "M": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MTL": {
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "M": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "NG": {
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFMV": {
+		"version": 2,
+		"elevation": 124,
+		"runways": "17,35,17R,35L",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,MLA",
+		"intersections": {
+			"17": "D,C3",
+			"35": "A,B"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"LACAZ": [
+				{
+					"sid": "N",
+					"rwy": "35"
+				},
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "M",
+					"rwy": "17"
+				}
+			],
+			"TRETS": [
+				{
+					"sid": "N",
+					"rwy": "35"
+				},
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "M",
+					"rwy": "17"
+				}
+			],
+			"MTL": [
+				{
+					"sid": "N",
+					"rwy": "35"
+				},
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "P",
+					"rwy": "35"
+				},
+				{
+					"sid": "M",
+					"rwy": "17"
+				}
+			],
+			"NG": [
+				{
+					"sid": "N",
+					"rwy": "35"
+				},
+				{
+					"sid": "S",
+					"rwy": "17"
+				}
+			]
+		}
+	}
 }

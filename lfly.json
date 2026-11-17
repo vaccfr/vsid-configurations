@@ -1,235 +1,126 @@
 {
-  "LFLY": {
-    "elevation": 659,
-    "runways": "16,34",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,VW",
-    "intersections": {
-    "16": "A1,A2",
-    "34": "A4"
-    },
-    "sids": {
-      "ALURA": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BELEP": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BELUS": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUSIL": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MABES": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MURRO": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MOKIP": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "REPSI": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RISOR": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ROMAM": {
-        "P": {
-          "1": {
-            "rwy": "34",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "16",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFLY": {
+		"version": 2,
+		"elevation": 659,
+		"runways": "16,34",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,VW",
+		"intersections": {
+			"16": "A1,A2",
+			"34": "A4"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"ALURA": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"BELEP": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"BELUS": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"BUSIL": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"MABES": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"MURRO": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"MOKIP": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"REPSI": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"RISOR": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			],
+			"ROMAM": [
+				{
+					"sid": "T",
+					"rwy": "16"
+				},
+				{
+					"sid": "P",
+					"rwy": "34"
+				}
+			]
+		}
+	}
 }

@@ -1,57 +1,50 @@
 {
-  "LFMU": {
-    "elevation": 56,
-    "runways": "09,27",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,MTA",
-    "intersections": {
-    "09": "P,A,B",
-    "27": "B,A,P"
-    },
-    "sids": {
-      "FJR": {
-        "L": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFMU": {
+		"version": 2,
+		"elevation": 56,
+		"runways": "09,27",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,MTA",
+		"intersections": {
+			"09": "P,A,B",
+			"27": "B,A,P"
+		},
+		"defaults": {
+			"equip": {
+				"NON-RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"FJR": [
+				{
+					"sid": "W",
+					"rwy": "27"
+				},
+				{
+					"sid": "E",
+					"rwy": "09"
+				},
+				{
+					"sid": "R",
+					"rwy": "27",
+					"equip": {
+						"RNAV": true
+					}
+				},
+				{
+					"sid": "L",
+					"rwy": "09",
+					"equip": {
+						"RNAV": true
+					}
+				}
+			]
+		}
+	}
 }

@@ -1,74 +1,66 @@
 {
-  "LFMI": {
-    "elevation": 82,
-    "runways": "15,33",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,RAW,MAC,ME,FFM,MI",
-    "sids": {
-      "AVN": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "prio": 1
-          }
-        }
-      },
-      "LUC": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 12000,
-            "prio": 1
-          }
-        }
-      },
-      "NASIK": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 12000,
-            "prio": 1
-          }
-        }
-      },
-      "SOSUR": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "prio": 1
-          }
-        }
-      },
-      "TINOT": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "prio": 1
-          }
-        }
-      },
-      "MAMES": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "prio": 1
-          }
-        }
-      },
-      "PPG": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFMI": {
+		"version": 2,
+		"elevation": 82,
+		"runways": "15,33",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,RAW,MAC,ME,FFM,MI",
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 14000,
+				"P": 14000,
+				"T": 14000
+			}
+		},
+		"procedures": {
+			"AVN": [
+				{
+					"sid": "D",
+					"rwy": "15,33"
+				}
+			],
+			"LUC": [
+				{
+					"sid": "D",
+					"rwy": "15,33",
+					"initialClimb": 12000
+				}
+			],
+			"NASIK": [
+				{
+					"sid": "D",
+					"rwy": "15,33",
+					"initialClimb": 12000
+				}
+			],
+			"SOSUR": [
+				{
+					"sid": "D",
+					"rwy": "15,33"
+				}
+			],
+			"TINOT": [
+				{
+					"sid": "D",
+					"rwy": "15,33"
+				}
+			],
+			"MAMES": [
+				{
+					"sid": "D",
+					"rwy": "15,33"
+				}
+			],
+			"PPG": [
+				{
+					"sid": "D",
+					"rwy": "15,33"
+				}
+			]
+		}
+	}
 }

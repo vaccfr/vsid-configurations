@@ -1,196 +1,114 @@
 {
-  "LFBI": {
-    "elevation": 423,
-    "runways": "03,21",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "BB,BI",
-        "intersections": {
-    "03": "A,D",
-    "21": "A,D"
-    },
-    "sids": {
-      "ABSIE": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      },
-      "BALAN": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      },
-      "GINON": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      },
-      "OLINO": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OMARI": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VERAC": {
-        "T": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "03",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "21",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      }
-    }
-  }
+	"LFBI": {
+		"version": 2,
+		"elevation": 423,
+		"runways": "03,21",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "BB,BI",
+		"intersections": {
+			"03": "A,D",
+			"21": "A,D"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"ABSIE": [
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				},
+				{
+					"sid": "S",
+					"rwy": "21"
+				}
+			],
+			"BALAN": [
+				{
+					"sid": "N",
+					"rwy": "03"
+				},
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				},
+				{
+					"sid": "S",
+					"rwy": "21"
+				}
+			],
+			"GINON": [
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				},
+				{
+					"sid": "S",
+					"rwy": "21"
+				},
+				{
+					"sid": "N",
+					"rwy": "03"
+				}
+			],
+			"OLINO": [
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				}
+			],
+			"OMARI": [
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				}
+			],
+			"VERAC": [
+				{
+					"sid": "V",
+					"rwy": "21"
+				},
+				{
+					"sid": "T",
+					"rwy": "03"
+				},
+				{
+					"sid": "S",
+					"rwy": "21"
+				},
+				{
+					"sid": "N",
+					"rwy": "03"
+				}
+			]
+		}
+	}
 }

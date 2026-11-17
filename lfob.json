@@ -1,646 +1,375 @@
 {
-  "LFOB": {
-    "elevation": 352,
-    "runways": "12,30",
-    "transAlt": 5000,
-    "maxInitialClimb": 8000,
-    "appSI": "FF,PGA,BOA",
-    "intersections": {
-    "12": "W,T,N2",
-    "30": "N2,R2,W,R"
-    },
-    "customRules": {
-      "pgeast": false
-    },
-    "sids": {
-      "ATREX": {
-        "M": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "NURMO": {
-        "M": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "OPALE": {
-        "M": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "VESAN": {
-        "M": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MATID": {
-        "M": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "dest": {
-              "LFOP": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "dest": {
-              "LFOP": true
-            }
-          }
-        }
-      },
-      "BAXIR": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUBLI": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "DIKOL": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LANVI": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RANUX": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "AGOPA": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ERIXU": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LATRA": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OKASI": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PILUL": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ELCOB": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LGL": {
-        "V": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "T": {
-          "1": {
-            "rwy": "30",
-            "initial": 5000,
-            "climbvia": true,
-            "customRule": "pgeast",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFOB": {
+		"version": 2,
+		"elevation": 352,
+		"runways": "12,30",
+		"transAlt": 5000,
+		"maxInitialClimb": 8000,
+		"appSI": "FF,PGA,BOA",
+		"intersections": {
+			"12": "W,T,N2",
+			"30": "N2,R2,W,R"
+		},
+		"customRules": {
+			"pgeast": false
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 5000,
+				"P": 5000,
+				"T": 5000
+			}
+		},
+		"procedures": {
+			"ATREX": {
+				"defaults": {
+					"initialClimb": {
+						"J": 0,
+						"P": 0,
+						"T": 0
+					}
+				},
+				"entries": [
+					{
+						"sid": "N",
+						"rwy": "30"
+					},
+					{
+						"sid": "M",
+						"rwy": "12"
+					}
+				]
+			},
+			"NURMO": {
+				"defaults": {
+					"initialClimb": {
+						"J": 0,
+						"P": 0,
+						"T": 0
+					}
+				},
+				"entries": [
+					{
+						"sid": "N",
+						"rwy": "30"
+					},
+					{
+						"sid": "M",
+						"rwy": "12"
+					}
+				]
+			},
+			"OPALE": {
+				"defaults": {
+					"initialClimb": {
+						"J": 0,
+						"P": 0,
+						"T": 0
+					}
+				},
+				"entries": [
+					{
+						"sid": "N",
+						"rwy": "30"
+					},
+					{
+						"sid": "M",
+						"rwy": "12"
+					}
+				]
+			},
+			"VESAN": {
+				"defaults": {
+					"initialClimb": {
+						"J": 0,
+						"P": 0,
+						"T": 0
+					}
+				},
+				"entries": [
+					{
+						"sid": "N",
+						"rwy": "30"
+					},
+					{
+						"sid": "M",
+						"rwy": "12"
+					}
+				]
+			},
+			"MATID": [
+				{
+					"sid": "N",
+					"rwy": "30",
+					"dest": {
+						"LFOP": true
+					}
+				},
+				{
+					"sid": "M",
+					"rwy": "12",
+					"dest": {
+						"LFOP": true
+					}
+				}
+			],
+			"BAXIR": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"BUBLI": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"DIKOL": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"LANVI": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"RANUX": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"AGOPA": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"ERIXU": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"LATRA": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30"
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"OKASI": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30",
+					"climbvia": true
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12"
+				}
+			],
+			"PILUL": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30",
+					"climbvia": true
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12",
+					"climbvia": true
+				}
+			],
+			"ELCOB": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30",
+					"climbvia": true
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12",
+					"climbvia": true
+				}
+			],
+			"LGL": [
+				{
+					"sid": "T",
+					"rwy": "30",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "W",
+					"rwy": "30",
+					"climbvia": true
+				},
+				{
+					"sid": "S",
+					"rwy": "12",
+					"climbvia": true,
+					"rule": "pgeast"
+				},
+				{
+					"sid": "V",
+					"rwy": "12",
+					"climbvia": true
+				}
+			]
+		}
+	}
 }

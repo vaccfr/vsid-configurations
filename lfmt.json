@@ -1,272 +1,154 @@
 {
-  "LFMT": {
-    "elevation": 17,
-    "runways": "12L,30R,12R,30L",
-    "transAlt": 5000,
-    "maxInitialClimb": 5000,
-    "appSI": "MM,MTA",
-    "intersections": {
-      "12L": "T6,Y,W1,J",
-      "12R": "R1,Q",
-      "30L": "L1",
-      "30R": "T1,V"
-    },
-    "sids": {
-      "ETREK": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MTL": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MARRI": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "NG": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "KELAM": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "PPG": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "30R",
-            "initial": 3000,
-            "prio": 1
-          }
-        }
-      },
-      "BRUSC": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MASAM": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MEN": {
-        "L": {
-          "1": {
-            "rwy": "12L",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "30R",
-            "initial": 5000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFMT": {
+		"version": 2,
+		"elevation": 17,
+		"runways": "12L,30R,12R,30L",
+		"transAlt": 5000,
+		"maxInitialClimb": 5000,
+		"appSI": "MM,MTA",
+		"intersections": {
+			"12L": "T6,Y,W1,J",
+			"12R": "R1,Q",
+			"30L": "L1",
+			"30R": "T1,V"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 3000,
+				"P": 3000,
+				"T": 3000
+			}
+		},
+		"procedures": {
+			"ETREK": [
+				{
+					"sid": "R",
+					"rwy": "30R"
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				},
+				{
+					"sid": "D",
+					"rwy": "30R"
+				},
+				{
+					"sid": "E",
+					"rwy": "12L"
+				}
+			],
+			"MTL": [
+				{
+					"sid": "R",
+					"rwy": "30R"
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				},
+				{
+					"sid": "D",
+					"rwy": "30R"
+				},
+				{
+					"sid": "E",
+					"rwy": "12L"
+				}
+			],
+			"MARRI": [
+				{
+					"sid": "R",
+					"rwy": "30R"
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				}
+			],
+			"NG": [
+				{
+					"sid": "R",
+					"rwy": "30R"
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				},
+				{
+					"sid": "N",
+					"rwy": "30R",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "S",
+					"rwy": "12L",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"KELAM": [
+				{
+					"sid": "R",
+					"rwy": "30R",
+					"initialClimb": 5000
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				},
+				{
+					"sid": "N",
+					"rwy": "30R",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"PPG": [
+				{
+					"sid": "N",
+					"rwy": "30R"
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				}
+			],
+			"BRUSC": [
+				{
+					"sid": "R",
+					"rwy": "30R",
+					"initialClimb": 5000
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				}
+			],
+			"MASAM": [
+				{
+					"sid": "L",
+					"rwy": "12L"
+				}
+			],
+			"MEN": [
+				{
+					"sid": "R",
+					"rwy": "30R",
+					"initialClimb": 5000
+				},
+				{
+					"sid": "L",
+					"rwy": "12L"
+				}
+			]
+		}
+	}
 }

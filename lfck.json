@@ -1,27 +1,32 @@
 {
-  "LFCK": {
-    "elevation": 785,
-    "runways": "14,32",
-    "transAlt": 5000,
-    "maxInitialClimb": 7000,
-    "appSI": "BB,AE,EB",
-    "intersections": {
-    "14": "C,M",
-    "32": "C,M"
-    },
-    "sids": {
-      "AFRIC": {
-        "M": {
-          "1": {
-            "rwy": "14",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFCK": {
+		"version": 2,
+		"elevation": 785,
+		"runways": "14,32",
+		"transAlt": 5000,
+		"maxInitialClimb": 7000,
+		"appSI": "BB,AE,EB",
+		"intersections": {
+			"14": "C,M",
+			"32": "C,M"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"AFRIC": [
+				{
+					"sid": "M",
+					"rwy": "14"
+				}
+			]
+		}
+	}
 }

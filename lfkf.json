@@ -1,215 +1,129 @@
 {
-  "LFKF": {
-    "elevation": 85,
-    "runways": "04,22",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,KJ",
-    "intersections": {
-      "04": "C,K",
-      "22": "C,K"
-    },
-    "sids": {
-      "AJO": {
-        "G": {
-          "1": {
-            "rwy": "04",
-            "initial": 7000,
-            "prio": 1
-          }
-        },
-        "M": {
-          "1": {
-            "rwy": "22",
-            "initial": 6000,
-            "prio": 2
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BTA": {
-        "L": {
-          "1": {
-            "rwy": "04",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "CORSI": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "NEGAT": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LONSU": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "L": {
-          "1": {
-            "rwy": "04",
-            "initial": 9000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "TINOT": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "L": {
-          "1": {
-            "rwy": "04",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "TORTU": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 12000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VAREK": {
-        "D": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "L": {
-          "1": {
-            "rwy": "04",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFKF": {
+		"version": 2,
+		"elevation": 85,
+		"runways": "04,22",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,KJ",
+		"intersections": {
+			"04": "C,K",
+			"22": "C,K"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"AJO": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				},
+				{
+					"sid": "G",
+					"rwy": "04",
+					"initialClimb": 7000
+				},
+				{
+					"sid": "M",
+					"rwy": "22",
+					"initialClimb": 6000
+				}
+			],
+			"BTA": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				},
+				{
+					"sid": "L",
+					"rwy": "04",
+					"initialClimb": 8000
+				}
+			],
+			"CORSI": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				},
+				{
+					"sid": "D",
+					"rwy": "04"
+				}
+			],
+			"NEGAT": [
+				{
+					"sid": "A",
+					"rwy": "22",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "D",
+					"rwy": "04"
+				}
+			],
+			"LONSU": [
+				{
+					"sid": "A",
+					"rwy": "22",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "D",
+					"rwy": "04"
+				},
+				{
+					"sid": "L",
+					"rwy": "04",
+					"initialClimb": 9000
+				}
+			],
+			"TINOT": [
+				{
+					"sid": "A",
+					"rwy": "22",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "L",
+					"rwy": "04",
+					"initialClimb": 8000
+				},
+				{
+					"sid": "D",
+					"rwy": "04"
+				}
+			],
+			"TORTU": [
+				{
+					"sid": "D",
+					"rwy": "04",
+					"initialClimb": 12000
+				}
+			],
+			"VAREK": [
+				{
+					"sid": "A",
+					"rwy": "22",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "L",
+					"rwy": "04",
+					"initialClimb": 8000
+				},
+				{
+					"sid": "D",
+					"rwy": "04"
+				}
+			]
+		}
+	}
 }

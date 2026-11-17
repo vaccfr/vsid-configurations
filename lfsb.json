@@ -1,136 +1,81 @@
 {
-  "LFSB": {
-    "elevation": 885,
-    "runways": "15,33,25",
-    "transAlt": 7000,
-    "maxInitialClimb": 8000,
-    "appSI": "RMS,SBC",
-    "intersections": {
-    "15": "B,H,G",
-    "33": "F,E,D,B,L",
-    "25": "C,C1,V"
-    },
-    "sids": {
-      "ELBEG": {
-        "B": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "M": {
-          "1": {
-            "rwy": "33",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OLBEN": {
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LUMEL": {
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MOROK": {
-        "T": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "TORPA": {
-        "T": {
-          "1": {
-            "rwy": "15",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFSB": {
+		"version": 2,
+		"elevation": 885,
+		"runways": "15,33,25",
+		"transAlt": 7000,
+		"maxInitialClimb": 8000,
+		"appSI": "RMS,SBC",
+		"intersections": {
+			"15": "B,H,G",
+			"33": "F,E,D,B,L",
+			"25": "C,C1,V"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 7000,
+				"P": 7000,
+				"T": 7000
+			}
+		},
+		"procedures": {
+			"ELBEG": [
+				{
+					"sid": "M",
+					"rwy": "33"
+				},
+				{
+					"sid": "B",
+					"rwy": "15"
+				}
+			],
+			"OLBEN": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "S",
+					"rwy": "15"
+				},
+				{
+					"sid": "Y",
+					"rwy": "15"
+				}
+			],
+			"LUMEL": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "S",
+					"rwy": "15"
+				}
+			],
+			"MOROK": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "T",
+					"rwy": "15"
+				}
+			],
+			"TORPA": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "T",
+					"rwy": "15"
+				}
+			]
+		}
+	}
 }
