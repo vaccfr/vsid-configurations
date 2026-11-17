@@ -1,81 +1,56 @@
 {
-  "LFOT": {
-    "elevation": 357,
-    "runways": "02,20",
-    "transAlt": 5000,
-    "maxInitialClimb": 7000,
-    "appSI": "FF",
-    "intersections": {
-    "02": "A",
-    "20": "D,C1"
-    },
-    "sids": {
-      "VANAD": {
-        "N": {
-          "1": {
-            "rwy": "02",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OMARI": {
-        "N": {
-          "1": {
-            "rwy": "02",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "SOPIL": {
-        "N": {
-          "1": {
-            "rwy": "02",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFOT": {
+		"version": 2,
+		"elevation": 357,
+		"runways": "02,20",
+		"transAlt": 5000,
+		"maxInitialClimb": 7000,
+		"appSI": "FF",
+		"intersections": {
+			"02": "A",
+			"20": "D,C1"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 7000,
+				"P": 7000,
+				"T": 7000
+			}
+		},
+		"procedures": {
+			"VANAD": [
+				{
+					"sid": "S",
+					"rwy": "20"
+				},
+				{
+					"sid": "N",
+					"rwy": "02"
+				}
+			],
+			"OMARI": [
+				{
+					"sid": "S",
+					"rwy": "20"
+				},
+				{
+					"sid": "N",
+					"rwy": "02"
+				}
+			],
+			"SOPIL": [
+				{
+					"sid": "S",
+					"rwy": "20"
+				},
+				{
+					"sid": "N",
+					"rwy": "02"
+				}
+			]
+		}
+	}
 }

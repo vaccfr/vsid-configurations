@@ -1,101 +1,70 @@
 {
-  "LFRG": {
-    "elevation": 479,
-    "runways": "12,30",
-    "transAlt": 5000,
-    "maxInitialClimb": 19000,
-    "appSI": "RR,RNA,FF",
-    "intersections": {
-    "12": "B",
-    "30": "B"
-    },
-    "sids": {
-      "LGL": {
-        "U": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "DIKRO": {
-        "U": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ETRAT": {
-        "U": {
-          "1": {
-            "rwy": "12",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "30",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFRG": {
+		"version": 2,
+		"elevation": 479,
+		"runways": "12,30",
+		"transAlt": 5000,
+		"maxInitialClimb": 19000,
+		"appSI": "RR,RNA,FF",
+		"intersections": {
+			"12": "B",
+			"30": "B"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"LGL": [
+				{
+					"sid": "W",
+					"rwy": "30",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "E",
+					"rwy": "12",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "V",
+					"rwy": "30"
+				},
+				{
+					"sid": "U",
+					"rwy": "12"
+				}
+			],
+			"DIKRO": [
+				{
+					"sid": "V",
+					"rwy": "30"
+				},
+				{
+					"sid": "U",
+					"rwy": "12"
+				}
+			],
+			"ETRAT": [
+				{
+					"sid": "V",
+					"rwy": "30"
+				},
+				{
+					"sid": "U",
+					"rwy": "12"
+				}
+			]
+		}
+	}
 }

@@ -1,347 +1,172 @@
 {
-  "LFLB": {
-    "elevation": 779,
-    "runways": "18,36,18L,36R",
-    "transAlt": 6500,
-    "maxInitialClimb": 6500,
-    "appSI": "MM,VW,VE,LB",
-    "intersections": {
-    "18": "C,N",
-    "36": "S,C"
-    },
-    "sids": {
-      "ESAPI": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ODIKI": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PAS": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VENAT": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LSE": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LTP": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ROMAM": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BULOL": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUSIL": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PIRUV": {
-        "L": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "18",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BELUS": {
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFLB": {
+		"version": 2,
+		"elevation": 779,
+		"runways": "18,36,18L,36R",
+		"transAlt": 6500,
+		"maxInitialClimb": 6500,
+		"appSI": "MM,VW,VE,LB",
+		"intersections": {
+			"18": "C,N",
+			"36": "S,C"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 6500,
+				"P": 6500,
+				"T": 6500
+			}
+		},
+		"procedures": {
+			"ESAPI": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"ODIKI": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"PAS": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"VENAT": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"LSE": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"LTP": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"ROMAM": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"BULOL": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"BUSIL": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"PIRUV": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				},
+				{
+					"sid": "R",
+					"rwy": "18"
+				},
+				{
+					"sid": "L",
+					"rwy": "18"
+				}
+			],
+			"BELUS": [
+				{
+					"sid": "C",
+					"rwy": "36"
+				}
+			]
+		}
+	}
 }

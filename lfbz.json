@@ -1,175 +1,133 @@
 {
-  "LFBZ": {
-    "elevation": 245,
-    "runways": "09,27",
-    "transAlt": 5000,
-    "maxInitialClimb": 8000,
-    "appSI": "BB,BY,BZ",
-    "intersections": {
-    "09": "P,D",
-    "27": "N,S"
-    },
-    "sids": {
-      "SOST": {
-        "D": {
-          "1": {
-            "rwy": "09",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "SOVOS": {
-        "D": {
-          "1": {
-            "rwy": "09",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "27",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VAVIX": {
-        "D": {
-          "1": {
-            "rwy": "09",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "27",
-            "initial": 7000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 7000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 7000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "DONOS": {
-        "D": {
-          "1": {
-            "rwy": "09",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "27",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "SSN": {
-        "D": {
-          "1": {
-            "rwy": "09",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "27",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFBZ": {
+		"version": 2,
+		"elevation": 245,
+		"runways": "09,27",
+		"transAlt": 5000,
+		"maxInitialClimb": 8000,
+		"appSI": "BB,BY,BZ",
+		"intersections": {
+			"09": "P,D",
+			"27": "N,S"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 8000,
+				"P": 8000,
+				"T": 8000
+			}
+		},
+		"procedures": {
+			"SOST": [
+				{
+					"sid": "D",
+					"rwy": "09",
+					"initialClimb": 7000
+				}
+			],
+			"SOVOS": {
+				"defaults": {
+					"initialClimb": {
+						"J": 7000,
+						"P": 7000,
+						"T": 7000
+					}
+				},
+				"entries": [
+					{
+						"sid": "F",
+						"rwy": "27"
+					},
+					{
+						"sid": "D",
+						"rwy": "09"
+					}
+				]
+			},
+			"VAVIX": {
+				"defaults": {
+					"initialClimb": {
+						"J": 7000,
+						"P": 7000,
+						"T": 7000
+					}
+				},
+				"entries": [
+					{
+						"sid": "F",
+						"rwy": "27"
+					},
+					{
+						"sid": "D",
+						"rwy": "09"
+					},
+					{
+						"sid": "W",
+						"rwy": "27",
+						"equip": {
+							"NON-RNAV": true
+						}
+					},
+					{
+						"sid": "E",
+						"rwy": "09",
+						"equip": {
+							"NON-RNAV": true
+						}
+					}
+				]
+			},
+			"DONOS": [
+				{
+					"sid": "F",
+					"rwy": "27"
+				},
+				{
+					"sid": "D",
+					"rwy": "09"
+				},
+				{
+					"sid": "W",
+					"rwy": "27",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "E",
+					"rwy": "09",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"SSN": [
+				{
+					"sid": "F",
+					"rwy": "27"
+				},
+				{
+					"sid": "D",
+					"rwy": "09"
+				},
+				{
+					"sid": "W",
+					"rwy": "27",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "E",
+					"rwy": "09",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			]
+		}
+	}
 }

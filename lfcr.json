@@ -1,125 +1,76 @@
 {
-  "LFCR": {
-    "elevation": 1909,
-    "runways": "13,31",
-    "transAlt": 6000,
-    "maxInitialClimb": 11000,
-    "appSI": "MM,RAW,CF,CN",
-    "intersections": {
-    "13": "A",
-    "31": "A"
-    },
-    "sids": {
-      "BASLI": {
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MEN": {
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MINPA": {
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ESISI": {
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "GAI": {
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFCR": {
+		"version": 2,
+		"elevation": 1909,
+		"runways": "13,31",
+		"transAlt": 6000,
+		"maxInitialClimb": 11000,
+		"appSI": "MM,RAW,CF,CN",
+		"intersections": {
+			"13": "A",
+			"31": "A"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"BASLI": [
+				{
+					"sid": "W",
+					"rwy": "31"
+				},
+				{
+					"sid": "E",
+					"rwy": "13"
+				}
+			],
+			"MEN": [
+				{
+					"sid": "W",
+					"rwy": "31"
+				},
+				{
+					"sid": "E",
+					"rwy": "13"
+				}
+			],
+			"MINPA": [
+				{
+					"sid": "W",
+					"rwy": "31"
+				},
+				{
+					"sid": "E",
+					"rwy": "13"
+				}
+			],
+			"ESISI": [
+				{
+					"sid": "W",
+					"rwy": "31"
+				},
+				{
+					"sid": "E",
+					"rwy": "13"
+				}
+			],
+			"GAI": [
+				{
+					"sid": "W",
+					"rwy": "31"
+				},
+				{
+					"sid": "E",
+					"rwy": "13"
+				}
+			]
+		}
+	}
 }

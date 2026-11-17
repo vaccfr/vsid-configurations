@@ -1,103 +1,66 @@
 {
-  "LFMK": {
-    "elevation": 434,
-    "runways": "09,27",
-    "transAlt": 5000,
-    "maxInitialClimb": 7000,
-    "appSI": "BB,AE,EB",
-    "intersections": {
-    "09": "Z,A,B,C",
-    "27": "F,E,D,C"
-    },
-    "sids": {
-      "FJR": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "GALDO": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MASAM": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PPG": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFMK": {
+		"version": 2,
+		"elevation": 434,
+		"runways": "09,27",
+		"transAlt": 5000,
+		"maxInitialClimb": 7000,
+		"appSI": "BB,AE,EB",
+		"intersections": {
+			"09": "Z,A,B,C",
+			"27": "F,E,D,C"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"FJR": [
+				{
+					"sid": "W",
+					"rwy": "27"
+				},
+				{
+					"sid": "E",
+					"rwy": "09"
+				}
+			],
+			"GALDO": [
+				{
+					"sid": "W",
+					"rwy": "27"
+				},
+				{
+					"sid": "E",
+					"rwy": "09"
+				}
+			],
+			"MASAM": [
+				{
+					"sid": "W",
+					"rwy": "27"
+				},
+				{
+					"sid": "E",
+					"rwy": "09"
+				}
+			],
+			"PPG": [
+				{
+					"sid": "W",
+					"rwy": "27"
+				},
+				{
+					"sid": "E",
+					"rwy": "09"
+				}
+			]
+		}
+	}
 }

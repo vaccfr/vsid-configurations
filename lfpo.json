@@ -1,3013 +1,1837 @@
 {
-  "LFPO": {
-    "elevation": 291,
-    "runways": "02,20,06,24,07,25",
-    "transAlt": 5000,
-    "maxInitialClimb": 13000,
-    "appSI": "FF,PGA,POA",
-    "intersections": {
-    "06": "W47",
-    "24": "W41,W42",
-    "07": "W37,W36",
-    "25": "W31,W32",
-    "02": "W28",
-    "20": "W21,W22,W23"
-    },
-    "customRules": {
-      "opposing": false
-    },
-    "sids": {
-      "ATREX": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "NURMO": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 7000,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OPALE": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BAXIR": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUBLI": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "DIKOL": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RANUX": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 9000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 8000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "AGOPA": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ERIXU": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 12000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LATRA": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OKASI": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PILUL": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "06",
-            "initial": 11000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "DORDI": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 3000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 3000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 3000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 6000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 6000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 6000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 6000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 6000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 6000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MONOT": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OLZOM": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ELCOB": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LGL": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "customRule": "opposing",
-            "prio": 1,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 13000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 13000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 10000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 10000,
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "24",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "engineType": "J",
-            "customRule": "opposing",
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "20",
-            "initial": 7000,
-            "climbvia": true,
-            "engineType": "PT",
-            "customRule": "opposing",
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 8000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 8000,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 8000,
-            "prio": 2,
-            "wtc":"LM",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PG": {
-        "A": {
-          "1": {
-            "rwy": "20",
-            "initial": 5000,
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "20",
-            "initial": 7000,
-            "customRule": "opposing",
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "07",
-            "initial": 7000,
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "F": {
-          "1": {
-            "rwy": "06",
-            "initial": 7000,
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "G": {
-          "1": {
-            "rwy": "07",
-            "initial": 5000,
-            "customRule": "opposing",
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "06",
-            "initial": 5000,
-            "customRule": "opposing",
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "24",
-            "initial": 7000,
-            "customRule": "opposing",
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "25",
-            "initial": 7000,
-            "customRule": "opposing",
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "20",
-            "initial": 7000,
-            "customRule": "opposing",
-            "prio": 2,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 5000,
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "25",
-            "initial": 5000,
-            "prio": 1,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "20",
-            "initial": 5000,
-            "prio": 2,
-            "dest": {
-              "LFPG": true
-            },
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFPO": {
+		"version": 2,
+		"elevation": 291,
+		"runways": "02,20,06,24,07,25",
+		"transAlt": 5000,
+		"maxInitialClimb": 13000,
+		"appSI": "FF,PGA,POA",
+		"intersections": {
+			"06": "W47",
+			"24": "W41,W42",
+			"07": "W37,W36",
+			"25": "W31,W32",
+			"02": "W28",
+			"20": "W21,W22,W23"
+		},
+		"customRules": {
+			"opposing": false
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 8000,
+				"P": 8000,
+				"T": 8000
+			}
+		},
+		"procedures": {
+			"ATREX": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000,
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "JPT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"NURMO": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "JPT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"OPALE": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"BAXIR": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"BUBLI": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"DIKOL": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"RANUX": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 9000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"AGOPA": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"ERIXU": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 12000,
+						"T": 12000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"LATRA": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"OKASI": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"PILUL": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 11000,
+						"T": 11000
+					},
+					"engines": "PT"
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": {
+						"J": 13000
+					},
+					"engines": "J"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"DORDI": [
+				{
+					"sid": "X",
+					"rwy": "25",
+					"initialClimb": 6000
+				},
+				{
+					"sid": "W",
+					"rwy": "24",
+					"initialClimb": 6000
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"initialClimb": 6000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"initialClimb": 6000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": 3000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": 3000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": 3000
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"initialClimb": 6000
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"initialClimb": 6000,
+					"rule": "opposing"
+				}
+			],
+			"MONOT": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06"
+				},
+				{
+					"sid": "E",
+					"rwy": "07"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"OLZOM": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06"
+				},
+				{
+					"sid": "E",
+					"rwy": "07"
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"ELCOB": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": 13000
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": 13000
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"rule": "opposing"
+				}
+			],
+			"LGL": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"climbvia": true,
+					"initialClimb": {
+						"P": 7000,
+						"T": 7000
+					},
+					"engines": "PT",
+					"rule": "opposing"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"engines": "J",
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": 10000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": 10000,
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": 13000
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": 13000
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"wtc": "LM",
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"wtc": "LM"
+				},
+				{
+					"sid": "X",
+					"rwy": "25"
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"engines": "J",
+					"rule": "opposing"
+				}
+			],
+			"PG": [
+				{
+					"sid": "X",
+					"rwy": "25",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "W",
+					"rwy": "24",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "R",
+					"rwy": "25",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				},
+				{
+					"sid": "Q",
+					"rwy": "24",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				},
+				{
+					"sid": "H",
+					"rwy": "06",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				},
+				{
+					"sid": "G",
+					"rwy": "07",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				},
+				{
+					"sid": "F",
+					"rwy": "06",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "E",
+					"rwy": "07",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "B",
+					"rwy": "20",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				},
+				{
+					"sid": "A",
+					"rwy": "20",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "Y",
+					"rwy": "20",
+					"initialClimb": 5000,
+					"dest": {
+						"LFPG": true
+					}
+				},
+				{
+					"sid": "S",
+					"rwy": "20",
+					"initialClimb": 7000,
+					"dest": {
+						"LFPG": true
+					},
+					"rule": "opposing"
+				}
+			]
+		}
+	}
 }

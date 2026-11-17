@@ -1,119 +1,85 @@
 {
-  "LFBP": {
-    "elevation": 616,
-    "runways": "13,31",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "BB,BY",
-    "intersections": {
-    "13": "N5,S2",
-    "31": "N1,N3,S0,S1"
-    },
-    "sids": {
-      "SOVOS": {
-        "D": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "USAKU": {
-        "D": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "Z": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "prio": 3,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFBP": {
+		"version": 2,
+		"elevation": 616,
+		"runways": "13,31",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "BB,BY",
+		"intersections": {
+			"13": "N5,S2",
+			"31": "N1,N3,S0,S1"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"SOVOS": [
+				{
+					"sid": "V",
+					"rwy": "31"
+				},
+				{
+					"sid": "D",
+					"rwy": "13"
+				},
+				{
+					"sid": "W",
+					"rwy": "31",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "E",
+					"rwy": "13",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"USAKU": [
+				{
+					"sid": "W",
+					"rwy": "31",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "V",
+					"rwy": "31"
+				},
+				{
+					"sid": "D",
+					"rwy": "13"
+				},
+				{
+					"sid": "E",
+					"rwy": "13",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "Y",
+					"rwy": "31"
+				},
+				{
+					"sid": "Z",
+					"rwy": "31",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			]
+		}
+	}
 }

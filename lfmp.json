@@ -1,177 +1,119 @@
 {
-  "LFMP": {
-    "elevation": 144,
-    "runways": "15,33,13,31",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,MTA",
-    "intersections": {
-      "15": "A,C,D",
-      "33": "H,G",
-      "13": "Q,R",
-      "31": "U,T,R"
-    },
-    "sids": {
-      "KELAM": {
-        "L": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "SIJAN": {
-        "L": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "ORBIL": {
-        "L": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 2,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "FJR": {
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "SUBIL": {
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "BGR": {
-        "N": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "BAMGO": {
-        "L": {
-          "1": {
-            "rwy": "15",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "33",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFMP": {
+		"version": 2,
+		"elevation": 144,
+		"runways": "15,33,13,31",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,MTA",
+		"intersections": {
+			"15": "A,C,D",
+			"33": "H,G",
+			"13": "Q,R",
+			"31": "U,T,R"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"KELAM": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "L",
+					"rwy": "15"
+				},
+				{
+					"sid": "S",
+					"rwy": "15",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"SIJAN": [
+				{
+					"sid": "N",
+					"rwy": "33"
+				},
+				{
+					"sid": "L",
+					"rwy": "15"
+				},
+				{
+					"sid": "S",
+					"rwy": "15",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"ORBIL": [
+				{
+					"sid": "R",
+					"rwy": "33"
+				},
+				{
+					"sid": "L",
+					"rwy": "15"
+				},
+				{
+					"sid": "N",
+					"rwy": "33",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"FJR": [
+				{
+					"sid": "S",
+					"rwy": "15"
+				},
+				{
+					"sid": "N",
+					"rwy": "33"
+				}
+			],
+			"SUBIL": [
+				{
+					"sid": "S",
+					"rwy": "15"
+				},
+				{
+					"sid": "N",
+					"rwy": "33"
+				}
+			],
+			"BGR": [
+				{
+					"sid": "S",
+					"rwy": "15"
+				},
+				{
+					"sid": "N",
+					"rwy": "33"
+				}
+			],
+			"BAMGO": [
+				{
+					"sid": "R",
+					"rwy": "33"
+				},
+				{
+					"sid": "L",
+					"rwy": "15"
+				}
+			]
+		}
+	}
 }

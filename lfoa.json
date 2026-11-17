@@ -1,88 +1,72 @@
 {
-  "LFOA": {
-    "elevation": 578,
-    "runways": "06,24",
-    "transAlt": 5000,
-    "maxInitialClimb": 6000,
-    "appSI": "FF,OAA",
-    "intersections": {
-    "06": "B5,B4",
-    "24": "B1,B2"
-    },
-    "sids": {
-      "AV": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "LEMIN": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MENOX": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MOU": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "CTX": {
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFOA": {
+		"version": 2,
+		"elevation": 578,
+		"runways": "06,24",
+		"transAlt": 5000,
+		"maxInitialClimb": 6000,
+		"appSI": "FF,OAA",
+		"intersections": {
+			"06": "B5,B4",
+			"24": "B1,B2"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"AV": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "E",
+					"rwy": "06"
+				}
+			],
+			"LEMIN": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "E",
+					"rwy": "06"
+				}
+			],
+			"MENOX": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "E",
+					"rwy": "06"
+				}
+			],
+			"MOU": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				},
+				{
+					"sid": "E",
+					"rwy": "06"
+				}
+			],
+			"CTX": [
+				{
+					"sid": "W",
+					"rwy": "24"
+				}
+			]
+		}
+	}
 }

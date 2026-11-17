@@ -1,91 +1,72 @@
 {
-  "LFQB": {
-    "elevation": 389,
-    "runways": "17,35,17R,35L,05,23",
-    "transAlt": 5000,
-    "maxInitialClimb": 6000,
-    "appSI": "FF",
-    "sids": {
-      "ARSIL": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "ERTIP": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "KASON": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "LUREN": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "OKRIX": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFQB": {
+		"version": 2,
+		"elevation": 389,
+		"runways": "17,35,17R,35L,05,23",
+		"transAlt": 5000,
+		"maxInitialClimb": 6000,
+		"appSI": "FF",
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"ARSIL": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			],
+			"ERTIP": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			],
+			"KASON": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			],
+			"LUREN": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			],
+			"OKRIX": [
+				{
+					"sid": "S",
+					"rwy": "17"
+				},
+				{
+					"sid": "N",
+					"rwy": "35"
+				}
+			]
+		}
+	}
 }

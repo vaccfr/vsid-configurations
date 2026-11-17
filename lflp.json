@@ -1,135 +1,86 @@
 {
-  "LFLP": {
-    "elevation": 1521,
-    "runways": "04,22,04R,22L",
-    "transAlt": 6500,
-    "maxInitialClimb": 6500,
-    "appSI": "MM,VW,VE,LB",
-    "intersections": {
-    "04": "A,B",
-    "22": "D,C"
-    },
-    "sids": {
-      "ESAPI": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ODIKI": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PAS": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VENAT": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LSE": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LTP": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ROMAM": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BULOL": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUSIL": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PIRUV": {
-        "A": {
-          "1": {
-            "rwy": "22",
-            "initial": 6500,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+	"LFLP": {
+		"version": 2,
+		"elevation": 1521,
+		"runways": "04,22,04R,22L",
+		"transAlt": 6500,
+		"maxInitialClimb": 6500,
+		"appSI": "MM,VW,VE,LB",
+		"intersections": {
+			"04": "A,B",
+			"22": "D,C"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 6500,
+				"P": 6500,
+				"T": 6500
+			}
+		},
+		"procedures": {
+			"ESAPI": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"ODIKI": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"PAS": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"VENAT": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"LSE": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"LTP": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"ROMAM": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"BULOL": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"BUSIL": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			],
+			"PIRUV": [
+				{
+					"sid": "A",
+					"rwy": "22"
+				}
+			]
+		}
+	}
 }

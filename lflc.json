@@ -1,271 +1,168 @@
 {
-  "LFLC": {
-    "elevation": 1092,
-    "runways": "08,26,01,19",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,CF",
-    "intersections": {
-    "08": "C5,C4,D4,C3,D3",
-    "26": "C1,D2"
-    },
-    "sids": {
-      "BELEP": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "CACHI": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "GERVA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RISUN": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LERGA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MEZIN": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MINPA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MOU": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "ROA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "RIVEK": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "SOMTI": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFLC": {
+		"version": 2,
+		"elevation": 1092,
+		"runways": "08,26,01,19",
+		"transAlt": 5000,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,CF",
+		"intersections": {
+			"08": "C5,C4,D4,C3,D3",
+			"26": "C1,D2"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"BELEP": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"CACHI": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"GERVA": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"RISUN": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"LERGA": [
+				{
+					"sid": "D",
+					"rwy": "26"
+				},
+				{
+					"sid": "S",
+					"rwy": "08"
+				},
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"MEZIN": [
+				{
+					"sid": "D",
+					"rwy": "26"
+				},
+				{
+					"sid": "S",
+					"rwy": "08"
+				},
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"MINPA": [
+				{
+					"sid": "D",
+					"rwy": "26"
+				},
+				{
+					"sid": "S",
+					"rwy": "08"
+				},
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"MOU": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"ROA": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"RIVEK": [
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			],
+			"SOMTI": [
+				{
+					"sid": "D",
+					"rwy": "26"
+				},
+				{
+					"sid": "S",
+					"rwy": "08"
+				},
+				{
+					"sid": "W",
+					"rwy": "26"
+				},
+				{
+					"sid": "E",
+					"rwy": "08"
+				}
+			]
+		}
+	}
 }

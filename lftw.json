@@ -1,101 +1,76 @@
 {
-  "LFTW": {
-    "elevation": 309,
-    "runways": "18,36",
-    "transAlt": 5000,
-    "maxInitialClimb": 11000,
-    "appSI": "MM,MTA",
-    "intersections": {
-    "18": "E,E1,J,D,G",
-    "36": "A,A1,B,F,G"
-    },
-    "sids": {
-      "MEN": {
-        "A": {
-          "1": {
-            "rwy": "18",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "CM": {
-        "N": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "18",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MARRI": {
-        "N": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "18",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MTL": {
-        "N": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "18",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "FJR": {
-        "N": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "18",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFTW": {
+		"version": 2,
+		"elevation": 309,
+		"runways": "18,36",
+		"transAlt": 5000,
+		"maxInitialClimb": 11000,
+		"appSI": "MM,MTA",
+		"intersections": {
+			"18": "E,E1,J,D,G",
+			"36": "A,A1,B,F,G"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"MEN": [
+				{
+					"sid": "B",
+					"rwy": "36"
+				},
+				{
+					"sid": "A",
+					"rwy": "18"
+				}
+			],
+			"CM": [
+				{
+					"sid": "S",
+					"rwy": "18"
+				},
+				{
+					"sid": "N",
+					"rwy": "36"
+				}
+			],
+			"MARRI": [
+				{
+					"sid": "S",
+					"rwy": "18"
+				},
+				{
+					"sid": "N",
+					"rwy": "36"
+				}
+			],
+			"MTL": [
+				{
+					"sid": "S",
+					"rwy": "18"
+				},
+				{
+					"sid": "N",
+					"rwy": "36"
+				}
+			],
+			"FJR": [
+				{
+					"sid": "S",
+					"rwy": "18"
+				},
+				{
+					"sid": "N",
+					"rwy": "36"
+				}
+			]
+		}
+	}
 }

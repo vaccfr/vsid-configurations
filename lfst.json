@@ -1,129 +1,98 @@
 {
-  "LFST": {
-    "elevation": 505,
-    "runways": "05,23",
-    "transAlt": 7000,
-    "maxInitialClimb": 9000,
-    "appSI": "RMS,STA",
-    "intersections": {
-    "05": "H,G",
-    "23": "E,F"
-    },
-    "sids": {
-      "POGOL": {
-        "Y": {
-          "1": {
-            "rwy": "05",
-            "initial": 9000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Z": {
-          "1": {
-            "rwy": "23",
-            "initial": 9000,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "23",
-            "initial": 0,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "BERUG": {
-        "M": {
-          "1": {
-            "rwy": "05",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "EPIKO": {
-        "M": {
-          "1": {
-            "rwy": "05",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "GTQ": {
-        "M": {
-          "1": {
-            "rwy": "05",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "prio": 2
-          }
-        },
-        "L": {
-          "1": {
-            "rwy": "23",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "LUPEN": {
-        "M": {
-          "1": {
-            "rwy": "05",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "H": {
-          "1": {
-            "rwy": "23",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MIRGU": {
-        "H": {
-          "1": {
-            "rwy": "23",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "SUL": {
-        "N": {
-          "1": {
-            "rwy": "05",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "23",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFST": {
+		"version": 2,
+		"elevation": 505,
+		"runways": "05,23",
+		"transAlt": 7000,
+		"maxInitialClimb": 9000,
+		"appSI": "RMS,STA",
+		"intersections": {
+			"05": "H,G",
+			"23": "E,F"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"POGOL": [
+				{
+					"sid": "H",
+					"rwy": "23",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "Z",
+					"rwy": "23",
+					"initialClimb": 9000
+				},
+				{
+					"sid": "Y",
+					"rwy": "05",
+					"initialClimb": 9000
+				}
+			],
+			"BERUG": [
+				{
+					"sid": "M",
+					"rwy": "05"
+				}
+			],
+			"EPIKO": [
+				{
+					"sid": "M",
+					"rwy": "05"
+				}
+			],
+			"GTQ": [
+				{
+					"sid": "L",
+					"rwy": "23"
+				},
+				{
+					"sid": "M",
+					"rwy": "05"
+				},
+				{
+					"sid": "H",
+					"rwy": "23",
+					"initialClimb": 7000
+				}
+			],
+			"LUPEN": [
+				{
+					"sid": "H",
+					"rwy": "23"
+				},
+				{
+					"sid": "M",
+					"rwy": "05"
+				}
+			],
+			"MIRGU": [
+				{
+					"sid": "H",
+					"rwy": "23"
+				}
+			],
+			"SUL": [
+				{
+					"sid": "S",
+					"rwy": "23"
+				},
+				{
+					"sid": "N",
+					"rwy": "05"
+				}
+			]
+		}
+	}
 }

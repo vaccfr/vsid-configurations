@@ -1,118 +1,90 @@
 {
-  "LFJL": {
-    "elevation": 870,
-    "runways": "04,22",
-    "transAlt": 7000,
-    "maxInitialClimb": 11000,
-    "appSI": "RMS,SU,SC",
-    "intersections": {
-    "04": "A,B",
-    "22": "C"
-    },
-    "sids": {
-      "DIK": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-        }
-      },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-        }
-      },
-        "T": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      },
-      "MAKOT": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-        }
-      },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MONCE": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-        }
-      },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "PHALO": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-        }
-      },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "MMD": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-         },
-        "T": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 2
-          }
-        }
-      },
-      "EPL": {
-        "T": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFJL": {
+		"version": 2,
+		"elevation": 870,
+		"runways": "04,22",
+		"transAlt": 7000,
+		"maxInitialClimb": 11000,
+		"appSI": "RMS,SU,SC",
+		"intersections": {
+			"04": "A,B",
+			"22": "C"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"DIK": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				},
+				{
+					"sid": "T",
+					"rwy": "22"
+				}
+			],
+			"MAKOT": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"MONCE": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"PHALO": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"MMD": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				},
+				{
+					"sid": "T",
+					"rwy": "22"
+				}
+			],
+			"EPL": [
+				{
+					"sid": "T",
+					"rwy": "22"
+				}
+			]
+		}
+	}
 }

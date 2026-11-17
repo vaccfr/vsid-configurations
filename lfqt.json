@@ -1,79 +1,66 @@
 {
-  "LFQT": {
-    "elevation": 61,
-    "runways": "04,22,04R,22L",
-    "transAlt": 5000,
-    "maxInitialClimb": 11000,
-    "appSI": "FF,QQA",
-    "intersections": {
-    "04": "B1,B2",
-    "22": "B4,B3"
-    },
-    "sids": {
-      "CMB": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "LEQ": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "BNE": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      },
-      "TRACA": {
-        "N": {
-          "1": {
-            "rwy": "04",
-            "initial": 0,
-            "prio": 1
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "22",
-            "initial": 0,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+	"LFQT": {
+		"version": 2,
+		"elevation": 61,
+		"runways": "04,22,04R,22L",
+		"transAlt": 5000,
+		"maxInitialClimb": 11000,
+		"appSI": "FF,QQA",
+		"intersections": {
+			"04": "B1,B2",
+			"22": "B4,B3"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"CMB": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"LEQ": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"BNE": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			],
+			"TRACA": [
+				{
+					"sid": "S",
+					"rwy": "22"
+				},
+				{
+					"sid": "N",
+					"rwy": "04"
+				}
+			]
+		}
+	}
 }

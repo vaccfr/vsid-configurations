@@ -1,452 +1,268 @@
 {
-   "LFKB":{
-      "elevation":26,
-      "runways":"16,34",
-      "transAlt":6200,
-      "maxInitialClimb":14000,
-      "appSI":"MM,BKB",
-      "intersections":{
-         "16":"E",
-         "34":"G,M"
-      },
-      "sids":{
-         "AKUTI":{
-            "Q":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "W":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":3,
-                     "equip":{
-                        "NON-RNAV":true
-                     }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":3,
-                     "equip":{
-                        "NON-RNAV":true
-                     }
-               }
-            }
-         },
-         "KERIT":{
-            "Q":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  },
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  }
-               }
-            },
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  },
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  }
-               }
-            },
-            "W":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  },
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  },
-                  "wtc":"LM"
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  },
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":3,
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  },
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":3,
-                  "dest":{
-                     "LFMN,LFMD LFTZ":true
-                  },
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            }
-         },
-         "NORKA":{
-            "Q":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":3,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            }
-         },
-         "SODRI":{
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "W":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":3,
-                  "equip":{
-                      "NON-RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":3,
-                  "equip":{
-                      "NON-RNAV":true
-                  }
-               }
-            }
-         },
-         "MEGER":{
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":3,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "W":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "V":{
-                "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            }
-         },
-         "BREMO":{
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "V":{
-                "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            }
-         },
-         "MOULE":{
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            }
-         },
-         "AJO":{
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "W":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":3,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            }
-         },
-         "LIBLO":{
-            "R":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "N":{
-               "1":{
-                  "rwy":"34",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            },
-            "V":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":1,
-                  "equip":{
-                     "RNAV":true
-                  }
-               }
-            },
-            "S":{
-               "1":{
-                  "rwy":"16",
-                  "initial":0,
-                  "prio":2,
-                  "equip":{
-                     "NON-RNAV":true
-                  }
-               }
-            }
-         }
-      }
-   }
+	"LFKB": {
+		"version": 2,
+		"elevation": 26,
+		"runways": "16,34",
+		"transAlt": 6200,
+		"maxInitialClimb": 14000,
+		"appSI": "MM,BKB",
+		"intersections": {
+			"16": "E",
+			"34": "G,M"
+		},
+		"defaults": {
+			"equip": {
+				"RNAV": true
+			},
+			"initialClimb": {
+				"J": 0,
+				"P": 0,
+				"T": 0
+			}
+		},
+		"procedures": {
+			"AKUTI": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "Q",
+					"rwy": "34"
+				},
+				{
+					"sid": "W",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"KERIT": [
+				{
+					"sid": "V",
+					"rwy": "16",
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				},
+				{
+					"sid": "Q",
+					"rwy": "34",
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				},
+				{
+					"sid": "W",
+					"rwy": "16",
+					"wtc": "LM",
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				},
+				{
+					"sid": "R",
+					"rwy": "34",
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					},
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					},
+					"dest": {
+						"LFMN,LFMD LFTZ": true
+					}
+				}
+			],
+			"NORKA": [
+				{
+					"sid": "Q",
+					"rwy": "34"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"SODRI": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "W",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"MEGER": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "W",
+					"rwy": "16"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"BREMO": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"MOULE": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"AJO": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "W",
+					"rwy": "16"
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			],
+			"LIBLO": [
+				{
+					"sid": "V",
+					"rwy": "16"
+				},
+				{
+					"sid": "R",
+					"rwy": "34"
+				},
+				{
+					"sid": "S",
+					"rwy": "16",
+					"equip": {
+						"NON-RNAV": true
+					}
+				},
+				{
+					"sid": "N",
+					"rwy": "34",
+					"equip": {
+						"NON-RNAV": true
+					}
+				}
+			]
+		}
+	}
 }
